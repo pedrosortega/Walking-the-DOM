@@ -27,3 +27,7 @@ console.log("id", id);
 //Select the section with an id of container using querySelector.
 const idSelect = document.querySelector("#container");
 console.log("idSelect", idSelect);
+
+//Select all of the list items with a class of "second".
+const secondItem = document.getElementsByClassName("second");
+console.log("secondItem", secondItem);
