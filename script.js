@@ -23,3 +23,7 @@ console.log("header", header);
 
 const id = document.getElementById("container");
 console.log("id", id);
+
+//Select the section with an id of container using querySelector.
+const idSelect = document.querySelector("#container");
+console.log("idSelect", idSelect);
