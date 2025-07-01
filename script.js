@@ -35,3 +35,7 @@ console.log("secondItem", secondItem);
 //Select a list item with a class of third, but only the list item inside of the ol tag
 const thirdElement = document.querySelector("ol li.third");
 console.log("thirdElement", thirdElement);
+
+//Give the section with an id of container the text "Hello!".
+const changeText = (document.getElementById("container").textContent =
+  "Hello!");
